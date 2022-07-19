@@ -1,0 +1,208 @@
+body{
+    background: no-repeat url('../images/background.png');
+    font-family: 'Abel', sans-serif;
+}
+#app{
+    justify-content: center;
+}
+.logo{
+    background: no-repeat url("../images/logo.png");
+    width: 10rem;
+    height: 5rem;
+}
+.headline {
+    padding-left: 2rem;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.411);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-around;
+}
+.headline img{
+    width: 2rem;
+    padding-right: .7rem;
+}
+.headline h4{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+.headline a{
+    text-decoration: none;
+    color: #fff;
+}
+.head{
+    text-align: -webkit-center; 
+}
+.body{
+    height:100vh;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    padding: 8rem;
+}
+.body-holder{
+    background: #00000038;
+    border-radius: 2rem;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 36px;
+    font-size: 3rem;
+    text-align: -webkit-center;
+    margin-bottom: 3rem;
+}
+.one{
+    margin-bottom: 0;
+    border-bottom: 2px solid white;
+    border-radius: 2rem 2rem 0 0;
+}
+#depart{
+    border-radius: 2rem 2rem 0 0;
+}
+.two{
+    border-radius: 0 0 2rem 2rem;
+}
+#returns{
+    border-radius: 0 0 2rem 2rem;
+}
+.holder{
+    text-align: -webkit-center;
+}
+.three{
+    width: fit-content;
+}
+.add{
+    background: no-repeat url("../images/add.png");
+    width: 8.5rem;
+    height: 10rem;
+    margin: 0;
+}
+.input-holder{
+    text-align: -webkit-center;
+}
+.entry{
+    background: rgba(59, 74, 107, .4);
+    height: fit-content;
+    background: #00000038;
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 36px;
+    font-size: 1rem;
+    text-align: -webkit-center;
+    justify-content: center;
+}
+.four{
+    background: rgba(59, 74, 107, .4);
+}
+#entryHolder{
+    display: flex;
+    justify-content: center;
+}
+#generate{
+    padding: 1rem;
+    text-align: -webkit-center;
+}
+#picture{
+    max-width: 25rem;
+}
+.icon{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    align-items: center;
+}
+#temp{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.weatherContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+p{
+    margin: 0;
+}
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#00000038;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    border: 1px transparent;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    width: -webkit-fill-available;
+}
+
+button{
+    background: transparent;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Abel', sans-serif;
+    border: none;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#00000038;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    border: 1px transparent;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    width: -webkit-fill-available;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgba(255, 255, 255, 0.479); 
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: rgba(255, 255, 255, 0.479); 
+    font-family: 'Abel', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: rgba(255, 255, 255, 0.479);
+    font-family: 'Abel', sans-serif;
+
+} 

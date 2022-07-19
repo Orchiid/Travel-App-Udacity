@@ -1,0 +1,25 @@
+<svg width="4703" height="4682" viewBox="0 0 4703 4682" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_418_261)">
+<rect width="4703" height="4682" fill="#6531BD"/>
+<rect width="4703" height="4682" fill="black" fill-opacity="0.2"/>
+<ellipse cx="4701.37" cy="2182.77" rx="1601.96" ry="2663.97" fill="#7878F5"/>
+<ellipse cx="633.598" cy="4374.2" rx="1116.96" ry="1543.33" fill="#699CFD"/>
+<ellipse cx="347.826" cy="2343.17" rx="837.722" ry="1424.11" fill="#82E1FF"/>
+<ellipse opacity="0.64" cx="1446.83" cy="60.6927" rx="780.568" ry="719.641" fill="white"/>
+<ellipse cx="2901.82" cy="-190.748" rx="1151.26" ry="1582.34" fill="#A4A4FF"/>
+<g filter="url(#filter0_b_418_261)">
+<rect width="4703" height="4682" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_418_261" x="-256" y="-256" width="5215" height="5194" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="128"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_418_261"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_418_261" result="shape"/>
+</filter>
+<clipPath id="clip0_418_261">
+<rect width="4703" height="4682" fill="white"/>
+</clipPath>
+</defs>
+</svg>
